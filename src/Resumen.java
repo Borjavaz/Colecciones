@@ -35,5 +35,16 @@ conjunto.add("Hola"); // No se guarda dos veces
 Map<String, String> mapa = new HashMap<>();
 mapa.put("Borja", "Borja1234");
 System.out.println(mapa.get("Borja")); // "Borja1234"
+
+            4. TreeSet (conjunto ordenado)
+            🔠 No permite duplicados (como Set).
+            ✅ Ordena automáticamente los elementos (orden natural o con comparador).
+            📏 Ideal si necesitas mantener los datos sin repetir y ordenados.
+
+Set<String> treeSet = new TreeSet<>();
+treeSet.add("Banana");
+treeSet.add("Manzana");
+treeSet.add("Manzana"); // No se guarda dos veces
+System.out.println(treeSet); // [Banana, Manzana] (orden alfabético)
      */
 }
